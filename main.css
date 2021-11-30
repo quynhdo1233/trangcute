@@ -172,3 +172,9 @@ p {
   font-family: "Rampart One", cursive;
   font-size: 4vw;
 }
+@media (max-width: 768px) {
+  body {
+    -webkit-perspective: 400px;
+  perspective: 400px;
+  }
+}
